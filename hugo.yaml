@@ -1,0 +1,170 @@
+baseURL: "https://adorigi.github.io/adnangtkm.github.io/"
+languageCode: "en-us"
+title: "About me"
+theme: hugo-profile
+
+params:
+    title: "Adnan Gulegulzar"
+    description: About me
+    animate: true
+
+    navbar:
+        align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+        # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+        showBrandLogo: false
+        # brandName: "Adnan Gulegulzar"
+        disableSearch: true
+        # searchPlaceholder: "Search"
+        menus:
+            disableAbout: false
+            disableExperience: false
+            disableEducation: false
+            disableProjects: false
+            disableAchievements: false
+            disableContact: false
+    
+    color:
+      # textColor:
+      # secondaryTextColor:
+      # backgroundColor:
+      # secondaryBackgroundColor:
+      # primaryColor:
+      # secondaryColor:
+
+      darkmode:
+        textColor: 
+        secondaryTextColor:
+        backgroundColor:
+        secondaryBackgroundColor:
+        primaryColor:
+        secondaryColor:
+    hero:
+        enable: true
+        intro: "Hi, my name is"
+        title: "Adnan."
+        subtitle: "I wanted to be a Le Mans driver but then I grew up"
+        content: "I like computers so I took it up as a profession. Professionally I identify as a Software Engineer, but generally I identify as an introvert"
+        image: /images/pepe.png
+        bottomImage:
+            enable: false
+            # roundImage: true # Make hero image circular | default false
+        button:
+            enable: true
+            name: "Resume"
+            url: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+            download: true
+            newPage: true
+        socialLinks:
+            fontAwesomeIcons:
+                - icon: fab fa-github
+                  url: https://github.com/adorigi
+                - icon: fab fa-linkedin
+                  url: https://www.linkedin.com/in/gulegulzaradnan/
+    about:
+      enable: true
+      title: "About Me"
+      image: "/images/me.png"
+      content: |-
+          I am a graduate student at the University of Windsor pursuing Master of Applied Computing and I am currently pursuing my co-op as a Cloud Software developer.
+
+          Currently my interest is garnered by: GOLANG
+      skills:
+          enable: true
+          title: "Here are a few technologies I've been working with recently:"
+          items:
+            - "Go"
+            - "Python"
+            - "IAC"
+            - "AWS"
+            - "Terraform"
+            - "C++"
+    experience:
+      enable: true
+      # title: "Custom Name"
+      items:
+        - job: "Cloud Software Developer Co-op"
+          company: "Caseware"
+          companyUrl: "https://www.caseware.com/ca/"
+          date: "Jan 2023 - present"
+          
+          content: |
+            My current day to day looks like:
+            
+            - Development on [Working Papers](https://www.caseware.com/ca/products/working-papers/), with a codebase of over 1.5m LOC. 
+
+            - Additionally, I have also assisted in migration of client firms between 
+            servers due insufficient storage capacity.
+
+        - job: "Enterprise Software Engineer"
+          company: "Wolters Kluwer - 2"
+          companyUrl: "https://www.wolterskluwer.com/en-in/"
+          date: "May 2021 - Nov 2021"
+          
+          content: |
+            - Developed an OOP solution to automate cloud infrastructure CRUD using python SDKs for varied technologies including cloud providers, Kubernetes and Redis among others.
+            - Designing architecture for a complete IAC solution to migrate from using AWS CloudFormation to Terraform.
+
+        - job: "Associate Infrastructure and Operations Analyst"
+          company: "Wolters Kluwer - 1"
+          companyUrl: "https://www.wolterskluwer.com/en-in/"
+          date: "Jan 2020 - May 2021"
+          
+          content: Contributed on automation of cloud infrastructure provisioning and management, utilizing corresponding python SDKs
+
+    education:
+      enable: true
+      # title: "Custom Name"
+      index: false
+      items:
+        - title: "Master of Applied Computing"
+          school:
+            name: "University of Windsor, Windsor"
+            url: "https://www.uwindsor.ca"
+          date: "2022-2023"
+          GPA: "3.8 out of 5.0"
+        - title: "Bachelor of Technology in Computer Science and Engineering"
+          school:
+            name: "Vellore Institute of Technology, Vellore"
+            url: "https://vit.ac.in"
+          date: "2016-2020"
+          GPA: ""
+          
+    achievements:
+        enable: true
+        # title: "Custom Name"
+        items:
+          - title: DevJams 2019 (Hackathon) - Winner
+            content: |
+              Developed Tardigate, an application level firewall with deep packet flow inspection and real time random forest classification
+            url: https://github.com/ba11b0y/tardigate
+
+    projects:
+      enable: true
+      # title: "Custom Name"
+      items:
+        - title: Ptick-Ptock
+          content: A simple Python package focusing on calculating elapsed time between a starting and ending point
+          image: /images/giphy.gif
+          featured:
+            name: PyPi Package
+            link: https://pypi.org/project/ptick-ptock/
+          badges:
+            - "Python"
+            - "PyPi"
+            - "Open-Source"
+          links:
+            - icon: fab fa-github
+              url: https://github.com/ADorigi/ptick-ptock
+        - title: Linux From Scratch
+          content: A custom linux flavor built from scratch following "Linux From Scratch" book, resulting in a bare minimum functional linux kernel
+          image: /images/lfs.jpeg
+          featured:
+            name: Current Stable LFS
+            link: https://www.linuxfromscratch.org/lfs/view/stable/
+          badges:
+            - "LFS"
+            - "Linux"
+            
+
+          
+        
