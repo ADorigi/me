@@ -1,4 +1,4 @@
-baseURL: "https://adorigi.github.io/adnangtkm.github.io/"
+baseURL: "https://gulegulzar.netlify.app"
 languageCode: "en-us"
 title: "About me"
 theme: hugo-profile
@@ -16,12 +16,12 @@ params:
         disableSearch: true
         # searchPlaceholder: "Search"
         menus:
-            disableAbout: true
-            disableExperience: true
-            disableEducation: true
-            disableProjects: true
-            disableAchievements: true
-            disableContact: true
+            disableAbout: false
+            disableExperience: false
+            disableEducation: false
+            disableProjects: false
+            disableAchievements: false
+            disableContact: false
     
     color:
       # textColor:
