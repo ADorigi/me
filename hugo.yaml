@@ -3,6 +3,15 @@ languageCode: "en-us"
 title: "About me"
 theme: hugo-profile
 
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
 params:
     title: "Adnan Gulegulzar"
     description: About me
